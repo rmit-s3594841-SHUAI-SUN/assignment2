@@ -1,0 +1,11 @@
+Alex Smith, , student at RMIT, M, 21, WA
+Ben Turner, , manager at Coles, M, 35, VIC
+Bevis Guo, GZD.jpeg, Student at RIMT, M, 25, VIC
+Brian Sun, SS.jpeg, Student at Rmit, M, 24, VIC
+Hannah White, Hannah.png, student at PLC, F, 14, VIC
+Jack Zhang, ZK.jpeg, Student at Rmit, M, 26, VIC
+Mark Turner, Mark.jpeg, , M, 2, VIC
+Oliver Li, LPQ.jpeg, Student at Rmit, M, 24, VIC
+Yasin Li, LYX.jpeg, Student at Rmit, M, 26, VIC
+Zoe Foster, , Founder of ZFX, F, 28, VIC
+Zoey Chen, CYY.jpeg, Student, F, 26, VIC

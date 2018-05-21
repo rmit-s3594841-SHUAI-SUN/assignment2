@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="441.0" prefWidth="685.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+	<left>
+		<AnchorPane prefHeight="177.0" prefWidth="169.0" BorderPane.alignment="CENTER">
+			<children>
+				<Button fx:id="listA" layoutX="3.0" layoutY="3.0" mnemonicParsing="false" onAction="#listPage" prefHeight="83.0" prefWidth="163.0" text="List Everyone" />
+				<Button fx:id="exit" layoutX="3.0" layoutY="350.0" mnemonicParsing="false" onAction="#exit" prefHeight="83.0" prefWidth="163.0" text="Exit" />
+				<Button fx:id="selectP" layoutX="3.0" layoutY="89.0" mnemonicParsing="false" onAction="#selectPage" prefHeight="83.0" prefWidth="163.0" text="Select A Person" />
+				<Button fx:id="addP" layoutX="3.0" layoutY="175.0" mnemonicParsing="false" onAction="#addPPage" prefHeight="83.0" prefWidth="163.0" text="Add A Person" />
+				<Button fx:id="identifyR" layoutX="3.0" layoutY="263.0" mnemonicParsing="false" onAction="#identifyPage" prefHeight="83.0" prefWidth="163.0" text="Identify Relationship" />
+			</children>
+		</AnchorPane>
+	</left>
+	<center>
+		<BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+			<center>
+				<SplitPane dividerPositions="0.09332321699544766, 0.6965098634294385" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+					<items>
+						<AnchorPane prefHeight="41.0" prefWidth="514.0">
+							<children>
+								<Text fx:id="detailTitle" layoutX="14.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to MiniNet" textAlignment="CENTER" wrappingWidth="484.00414276123047">
+                           <font>
+                              <Font size="16.0" />
+                           </font></Text>
+							</children>
+						</AnchorPane>
+                  <BorderPane fx:id="operatePane" prefHeight="185.0" prefWidth="514.0">
+                     <center>
+                     </center></BorderPane>
+						<AnchorPane fx:id="showPane" minHeight="0.0" minWidth="0.0" prefHeight="167.0" prefWidth="514.0">
+							<children>
+								<TextArea fx:id="displayTx" layoutX="38.0" layoutY="11.0" prefHeight="107.0" prefWidth="437.0" text="Hello World" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="39.0">
+                           <padding>
+                              <Insets left="10.0" right="10.0" />
+                           </padding>
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font></TextArea>
+							</children>
+						</AnchorPane>
+					</items>
+				</SplitPane>
+			</center>
+		</BorderPane>
+	</center>
+</BorderPane>

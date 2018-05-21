@@ -1,0 +1,30 @@
+/*C4*/SET SCHEMA PUBLIC
+drop table person if exists
+create table person (name varchar(20) not null, imageName varchar(20),status varchar(40),gender varchar(2),age integer,state varchar(8))
+INSERT INTO PERSON VALUES('Alex Smith','','student at RMIT','M',21,'WA')
+COMMIT
+INSERT INTO PERSON VALUES('Ben Turner','','manager at Coles','M',35,'VIC')
+COMMIT
+INSERT INTO PERSON VALUES('Bevis Guo','GZD.jpeg','Student at RIMT','M',25,'VIC')
+COMMIT
+INSERT INTO PERSON VALUES('Brian Sun','SS.jpeg','Student at Rmit','M',24,'VIC')
+COMMIT
+INSERT INTO PERSON VALUES('Hannah White','Hannah.png','student at PLC','F',14,'VIC')
+COMMIT
+INSERT INTO PERSON VALUES('Jack Zhang','ZK.jpeg','Student at Rmit','M',26,'VIC')
+COMMIT
+INSERT INTO PERSON VALUES('Mark Turner','Mark.jpeg','','M',2,'VIC')
+COMMIT
+INSERT INTO PERSON VALUES('Oliver Li','LPQ.jpeg','Student at Rmit','M',24,'VIC')
+COMMIT
+INSERT INTO PERSON VALUES('Yasin Li','LYX.jpeg','Student at Rmit','M',26,'VIC')
+COMMIT
+INSERT INTO PERSON VALUES('Zoe Foster','','Founder of ZFX','F',28,'VIC')
+COMMIT
+INSERT INTO PERSON VALUES('Zoey Chen','CYY.jpeg','Student','F',26,'VIC')
+COMMIT
+DISCONNECT
+/*C5*/SET SCHEMA PUBLIC
+drop table relation if exists
+create table relation (firstname varchar(20) not null, secondname varchar(20) not null,type varchar(20) not null)
+DISCONNECT
